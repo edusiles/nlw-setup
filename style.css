@@ -1,0 +1,135 @@
+/* Todos os elementos */
+* {
+  /* Limpeza da configuração do navegador */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Viewport, corpo da aplicação */
+body {
+  background-color: #09090a;
+  color: white;
+  height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+  /* Alinhamento */
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+  padding: 48px;
+
+  /* Posicionamento */
+  position: fixed;
+  width: 100%;
+  background-color: #09090a;
+}
+
+/* Botão de registrar dia */
+button {
+  /* Aparência */
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #8B5CF6;
+  background-color: transparent;
+  color: white;
+
+  /* Alinhamento */
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  /* Fonte */
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+/* Formulário */
+#form-habits {
+  /* Alinhamento */
+  display: flex;
+  padding: 182px 48px 48px;
+  width: fit-content;
+}
+
+/* Hábitos */
+.habits {
+  /* Alinhamento */
+  margin-top: 58px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.habit {
+  /* Alinhamento */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Estilização */
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+}
+
+/* Box dos dias */
+.days {
+  /* Alinhamento */
+  display: flex;
+  margin-left: 32px;
+  gap: 48px;
+}
+
+/* Coluna de 01 dia */
+.day {
+  /* Alinhamento */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Texto (número) da data */
+.day div {
+  /* Alinhamento */
+  margin-bottom: 8px;
+  text-align: center;
+
+  /* Fonte */
+  font-family: 'Roboto Mono';
+  font-size: 20px;
+  line-height: 125%;
+  color: #A1A1AA
+}
+
+/* Botão de check */
+input {
+  /* Formato */
+  width: 64px;
+  height: 64px;
+  border: 2px solid #27272A;
+  border-radius: 8px;
+  
+  /* Aparência */
+  appearance: none;
+  -webkit-appearance: none;
+  background: #18181B;
+}
+
+/* Botão selecionado */
+/* pseudo-selector */
+input:checked {
+  /* Aparência */
+  background: #8B5CF6;
+  border: 2px solid #A78BFA;
+}
+
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
+}
