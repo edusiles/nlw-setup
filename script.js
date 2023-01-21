@@ -1,5 +1,5 @@
 // Selecionar o formulário em uma variável
-const form = document.querySelector("#form-habits")
+const form = document.querySelector("form")
 const nlwSetup = new NLWSetup(form)
 
 // Selecionar botão na variável
