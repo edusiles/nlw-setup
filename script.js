@@ -1,9 +1,9 @@
 // Selecionar o formulário em uma variável
-const form = document.querySelector("form")
+const form = document.querySelector("#form-habits")
 const nlwSetup = new NLWSetup(form)
 
 // Selecionar botão na variável
-const button = document.querySelector('header button')
+const button = document.querySelector("header button")
 
 // Verificar se o botão foi clicado
 button.addEventListener("click", add)
@@ -16,7 +16,7 @@ function add() {
 
   // Verificar se o dia já existe
   const dayExists = nlwSetup.dayExists(today)
-  
+
   // Teste condicional com base na existência do dia
   if (dayExists) {
     alert("🚨 Dia já adicionado! 🛑")
