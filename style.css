@@ -128,6 +128,8 @@ input:checked {
   border: 2px solid #A78BFA;
 }
 
+/* Media query */
+/* Controle de exibição */
 @media (max-width: 570px) {
   button div {
     display: none;
