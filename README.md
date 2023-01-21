@@ -38,7 +38,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Habits é um app para ajudar a organizar e rastrear os hábitos diários.
 
-- [Acesse o projeto finalizado, online](https://edusiles.github.io/nlw-setup)
+- [Visite o projeto online](https://edusiles.github.io/nlw-setup)
 
 <br>
 
